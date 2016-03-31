@@ -1,6 +1,6 @@
 //
 //  SideMenuViewController.swift
-//  Migration Center Bastion
+//  iOS Swift 2.2 Side Menu Sample
 //
 //  Created by Maxim on 31.03.16.
 //  Copyright © 2016 Maxim. All rights reserved.
