@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  iOSSwiftSideMenuSample
+//  Migration Center Bastion
 //
 //  Created by Maxim on 31.03.16.
 //  Copyright © 2016 Maxim. All rights reserved.
@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+    
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        let containerViewController = ContainerViewController()
+        window!.rootViewController = containerViewController
+        window!.makeKeyAndVisible()
         return true
     }
 
